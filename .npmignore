@@ -1,0 +1,15 @@
+# for npm
+node_modules/
+npm-shrinkwrap.json
+
+# for test
+test/
+
+# misc
+.gitignore
+.editorconfig
+circle.yml
+setup.sh
+Gruntfile.js
+
+npm-debug.log
