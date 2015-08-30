@@ -13,3 +13,5 @@ setup.sh
 Gruntfile.js
 
 npm-debug.log
+
+tsconfig.json
