@@ -18,7 +18,10 @@ module.exports = function(grunt) {
                 experimentalDecorators: true
             },
             clientMain: {
-                src: ['./**/*.ts'],
+                src: [
+                    './**/*.ts',
+                    '!./ignore/**/*.ts'
+                ],
                 options: {
                     declaration: true
                 }
@@ -28,8 +31,8 @@ module.exports = function(grunt) {
         // Before generating any new files, remove any previously-created files.
         clean: {
             tests: [
-              'test/fixtures/testA',
-              'test/fixtures/testB/**/tsconfig.json'
+                'test/fixtures/testA',
+                'test/fixtures/testB/**/tsconfig.json'
             ]
         },
 
