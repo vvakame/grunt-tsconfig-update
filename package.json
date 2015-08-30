@@ -1,8 +1,8 @@
 {
-  "name": "grunt-tsconfig",
+  "name": "grunt-tsconfig-update",
   "version": "0.0.1",
-  "description": "tsconfig.json generator for grunt",
-  "homepage": "https://github.com/vvakame/grunt-tsconfig",
+  "description": "tsconfig.json updater for grunt",
+  "homepage": "https://github.com/vvakame/grunt-tsconfig-update",
   "author": {
     "name": "vvakame",
     "email": "vvakame+dev@gmail.com",
@@ -10,15 +10,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/vvakame/grunt-tsconfig.git"
+    "url": "git://github.com/vvakame/grunt-tsconfig-update.git"
   },
   "bugs": {
-    "url": "https://github.com/vvakame/grunt-tsconfig/issues"
+    "url": "https://github.com/vvakame/grunt-tsconfig-update/issues"
   },
   "licenses": [
     {
       "type": "MIT",
-      "url": "https://github.com/vvakame/grunt-tsconfig/blob/master/LICENSE-MIT"
+      "url": "https://github.com/vvakame/grunt-tsconfig-update/blob/master/LICENSE-MIT"
     }
   ],
   "engines": {
