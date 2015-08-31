@@ -25,7 +25,7 @@ module.exports = function(grunt) {
         ts: {
             options: {
                 target: 'es5',
-                module: 'umd',
+                module: 'amd',
                 noImplicitAny: true,
                 experimentalDecorators: true
             },
